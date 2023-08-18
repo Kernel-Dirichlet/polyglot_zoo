@@ -80,7 +80,7 @@ dynamic_chain_execute() {
     
     #finally, we turn this script into a PHP file at the end. 
     
-    PHP_HEADER="/*" #Note that this will actually write a list of current directories to the PHP file, which can be fed to a hidden file and extracted via grep
+    PHP_HEADER="/*" #Note that this will actually write a list of current directories to the PHP file
     PHP_FOOTER="*/"
     
     #you could further obfuscate the PHP contents by running $(cat hello.x >> new.php) into the PHP file, as the entire file is just a comment 
@@ -89,4 +89,4 @@ dynamic_chain_execute() {
     
     
 }
-static_chain_execute 
+static_chain_execute #bells are ringing ;) 
