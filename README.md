@@ -26,6 +26,8 @@ Consider a polyglot which **generates** malicious payload during runtime. These 
 
 3) RecursiveMorph - Scripts which specifically use recursion and/or co-recursion *only* to change from their initial format(s) into other formats during *each* recursive or co-recursive call.
 
+4) Classic - These are regular polyglots which are simply single files valid in multiple formats. These are often challenging to generate due to divergent syntax, and some language combinations might be outright provably impossible.
+   
 #### Repository Notes
 
 I will include explanations of the goals of each Polyglot file, and aim to make each one as unique as possible from others. In the event including the explanations within the files themselves as comments, I will append this README and in the future provide an improved way to organize and categorize these files. 
